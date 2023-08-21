@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width = devicewidth , initial-scale = 1">
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <div class="loader"></div>
+        <header>
+            <a href="#" class="split">Shopping Park</a>
+            <a href="#" class="tablinks" onclick="opentab('Contact')">Contact</a>
+            <a href="#" class="tablinks" onclick="opentab('Women')">Women</a>
+            <a href="#" class="tablinks" onclick="opentab('Men')">Men</a>
+            <a href="#" class="tablinks" onclick="opentab('Home')">Home</a>
+        </header>
+        <section class="tabcontent active-content" id="Home" style="margin-top: 5%;">
+            <div class="slideshow-container">
+                <div class="myslides fade">
+                    <img src="C:/Users/lenovo/Downloads/shopping.jpg" style="width: 100%;height: 400px;margin-top: 4%;">
+                </div>
+                <div class="myslides fade">
+                    <img src="C:/Users/lenovo/Downloads/shp.jpg" style="width: 100%;height: 400px;margin-top: 4%;">
+                </div>
+                <div class="myslides fade">
+                    <img src="C:/Users/lenovo/Downloads/sort.jpg" style="width: 100%;height: 400px;margin-top: 4%;">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#60; </a>
+                <a class="next" onclick="plusSlides(1)">&gt;</a>
+            </div>
+            <br>
+            <div style="text-align: center;">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            <div class="box-list">
+                <div class="box">
+                    <img src="C:/Users/lenovo/Downloads/kurtis.jpg" style="width: 350px;height: 300px;">
+                    <h1 style="color: black;text-align: center;font-family: helvetica;">Kurtis for Women</h1>
+                    <h2 style="color: red;text-align: center;font-family: helvetica;">&#8377; 699</h2>
+                    <h2 style="color: black;text-align: center;font-family: helvetica;"><s>&#8377; 1500</s></h2>
+                    <button class="button" onclick="opentab('Contact')">Buy Now</button>
+                    <br><br>
+                </div>
+                <div class="box">
+                    <img src="C:/Users/lenovo/Downloads/shirts.jpg" style="width: 350px;height: 300px;">
+                    <h1 style="color: black;text-align: center;font-family: helvetica;">Shirts</h1>
+                    <h2 style="color: red;text-align: center;font-family: helvetica;">&#8377; 499</h2>
+                    <h2 style="color: black;text-align: center;font-family: helvetica;"><s>&#8377; 999</s></h2>
+                    <button class="button" onclick="opentab('Contact')">Buy Now</button>
+                    <br><br>
+                </div>
+                <div class="box">
+                    <img src="C:/Users/lenovo/Downloads/jeans.jpg" style="width: 350px;height: 300px;">
+                    <h1 style="color: black;text-align: center;font-family: helvetica;">Jeans</h1>
+                    <h2 style="color: red;text-align: center;font-family: helvetica;">&#8377; 350</h2>
+                    <h2 style="color: black;text-align: center;font-family: helvetica;"><s>&#8377; 700</s></h2>
+                    <button class="button" onclick="opentab('Contact')">Buy Now</button>
+                    <br><br>
+                </div>
+            </div>
+            <br><br><br>
+            <button class="btn" onclick="opentab('Men')">Next Page &rarr;</button>
+        </section>
+        <section class="tabcontent" id="Men">
+            <img src="C:/Users/lenovo/Downloads/men.jpg" style="width: 100%;height: 400px;margin-top: 5%;">
+            <p style="color: blue;font-family: helvetica;font-size: 35px;font-weight: bolder;text-align: center;">The Best look anytime anywhere</p>
+            <div class="box-list" style="margin-top: 2%;">
+                <div class="box">
+                    <img src="C:/Users/lenovo/Downloads/shirts.jpg" style="width: 350px;height: 300px;">
+                    <p style="color: black;text-align: center;font-size: 30px;font-family: helvetica;font-weight: bold;">Shirts</p>
+                    <p style="color: red;font-size: 20px;text-align: center;font-family: helvetica;font-weight: bold;">&#8377; 500</p>
+                    <p style="color: black;font-size: 20px;text-align: center;font-family: helvetica;font-weight: bold;"><s>&#8377; 1000</s></p>
+                    <button class="button" onclick="opentab('Contact')">Buy Now</button>
+                    <br><br>
+                </div>
+                <div class="box">
+                    <img src="C:/Users/lenovo/Downloads/jeans.jpg" style="width: 350px;height: 300px;">
+                    <p style="color: black;text-align: center;font-size: 30px;font-family: helvetica;font-weight: bold;">Jeans</p>
+                    <p style="color: red;font-size: 20px;text-align: center;font-family: helvetica;font-weight: bold;">&#8377; 500</p>
+                    <p style="color: black;font-size: 20px;text-align: center;font-family: helvetica;font-weight: bold;"><s>&#8377; 1000</s></p>
+                    <button class="button" onclick="opentab('Contact')">Buy Now</button>
+                    <br><br>
+                </div>
+                <div class="box">
+                    <img src="C:/Users/lenovo/Downloads/shoes.jpg" style="width: 350px;height: 300px;">
+                    <p style="color: black;text-align: center;font-size: 30px;font-family: helvetica;font-weight: bold;">Shoes</p>
+                    <p style="color: red;font-size: 20px;text-align: center;font-family: helvetica;font-weight: bold;">&#8377; 500</p>
+                    <p style="color: black;font-size: 20px;text-align: center;font-family: helvetica;font-weight: bold;"><s>&#8377; 1000</s></p>
+                    <button class="button" onclick="opentab('Contact')">Buy Now</button>
+                    <br><br>
+                </div>
+                <div class="box">
+                    <img src="C:/Users/lenovo/Downloads/watch.jpg" style="width: 350px;height: 300px;">
+                    <p style="color: black;text-align: center;font-size: 30px;font-family: helvetica;font-weight: bold;">Watch</p>
+                    <p style="color: red;font-size: 20px;text-align: center;font-family: helvetica;font-weight: bold;">&#8377; 500</p>
+                    <p style="color: black;font-size: 20px;text-align: center;font-family: helvetica;font-weight: bold;"><s>&#8377; 1000</s></p>
+                    <button class="button" onclick="opentab('Contact')">Buy Now</button>
+                    <br><br>
+                </div>
+                <div class="box">
+                    <img src="C:/Users/lenovo/Downloads/t-shirt.jpg" style="width: 350px;height: 300px;">
+                    <p style="color: black;text-align: center;font-size: 30px;font-family: helvetica;font-weight: bold;">t-shirts</p>
+                    <p style="color: red;font-size: 20px;text-align: center;font-family: helvetica;font-weight: bold;">&#8377; 500</p>
+                    <p style="color: black;font-size: 20px;text-align: center;font-family: helvetica;font-weight: bold;"><s>&#8377; 1000</s></p>
+                    <button class="button" onclick="opentab('Contact')">Buy Now</button>
+                    <br><br>
+                </div>
+                <div class="box">
+                    <img src="C:/Users/lenovo/Downloads/sunglass.jpg" style="width: 350px;height: 300px;">
+                    <p style="color: black;text-align: center;font-size: 30px;font-family: helvetica;font-weight: bold;">sunglass</p>
+                    <p style="color: red;font-size: 20px;text-align: center;font-family: helvetica;font-weight: bold;">&#8377; 500</p>
+                    <p style="color: black;font-size: 20px;text-align: center;font-family: helvetica;font-weight: bold;"><s>&#8377; 1000</s></p>
+                    <button class="button" onclick="opentab('Contact')">Buy Now</button>
+                    <br><br>
+                </div>
+            </div>
+            <br><br>
+            <button class="btn" onclick="opentab('Women')">Next Page &rarr;</button>
+        </section>
+        <section class="tabcontent" id="Women">
+            <img src="C:/Users/lenovo/Downloads/shp.jpg" style="width: 100%;height: 400px;margin-top: 5%;">
+            <p style="color: blue;font-family: helvetica;font-size: 35px;font-weight: bolder;text-align: center;">The Best look anytime anywhere</p>
+            <div class="box-list" style="margin-top: 2%;">
+                <div class="box">
+                    <img src="C:/Users/lenovo/Downloads/kurtis.jpg" style="width: 350px;height: 300px;">
+                    <p style="color: black;text-align: center;font-size: 30px;font-family: helvetica;font-weight: bold;">Kurtis</p>
+                    <p style="color: red;font-size: 20px;text-align: center;font-family: helvetica;font-weight: bold;">&#8377; 500</p>
+                    <p style="color: red;font-size: 20px;text-align: center;font-family: helvetica;font-weight: bold;"><s>&#8377; 1000</s></p>
+                    <button class="button" onclick="opentab('Contact')">Buy Now</button>
+                    <br>
+                </div>
+                <div class="box">
+                    <img src="C:/Users/lenovo/Downloads/women watch.jpg" style="width: 350px;height: 300px;">
+                    <p style="color: black;text-align: center;font-size: 30px;font-family: helvetica;font-weight: bold;">Watch</p>
+                    <p style="color: red;font-size: 20px;text-align: center;font-family: helvetica;font-weight: bold;">&#8377; 399</p>
+                    <p style="color: black;font-size: 20px;text-align: center;font-family: helvetica;font-weight: bold;"><s>&#8377; 700</s></p>
+                    <button class="button" onclick="opentab('Contact')">Buy Now</button>
+                    <br><br>
+                </div>
+                <div class="box">
+                    <img src="C:/Users/lenovo/Downloads/western tops.jpg" style="width: 350px;height: 300px;">
+                    <p style="color: black;text-align: center;font-size: 30px;font-family: helvetica;font-weight: bold;">Western Tops</p>
+                    <p style="color: red;font-size: 20px;text-align: center;font-family: helvetica;font-weight: bold;">&#8377; 420</p>
+                    <p style="color: black;font-size: 20px;text-align: center;font-family: helvetica;font-weight: bold;"><s>&#8377; 600</s></p>
+                    <button class="button" onclick="opentab('Contact')">Buy Now</button>
+                    <br><br>
+                </div>
+                <div class="box">
+                    <img src="C:/Users/lenovo/Downloads/slippers.jpg" style="width: 350px;height: 300px;">
+                    <p style="color: black;text-align: center;font-size: 30px;font-family: helvetica;font-weight: bold;">Slippers</p>
+                    <p style="color: red;font-size: 20px;text-align: center;font-family: helvetica;font-weight: bold;">&#8377; 599</p>
+                    <p style="color: black;font-size: 20px;text-align: center;font-family: helvetica;font-weight: bold;"><s>&#8377; 999</s></p>
+                    <button class="button" onclick="opentab('Contact')">Buy Now</button>
+                    <br><br>
+                </div>
+                <div class="box">
+                    <img src="C:/Users/lenovo/Downloads/cosmetics.jpg" style="width: 350px;height: 300px;">
+                    <p style="color: black;text-align: center;font-size: 30px;font-family: helvetica;font-weight: bold;">cosmetics</p>
+                    <p style="color: red;font-size: 20px;text-align: center;font-family: helvetica;font-weight: bold;">&#8377; 600</p>
+                    <p style="color: black;font-size: 20px;text-align: center;font-family: helvetica;font-weight: bold;"><s>&#8377; 1000</s></p>
+                    <button class="button" onclick="opentab('Contact')">Buy Now</button>
+                    <br><br>
+                </div>
+                <div class="box">
+                    <img src="C:/Users/lenovo/Downloads/sunglass.jpg" style="width: 350px;height: 300px;">
+                    <p style="color: black;text-align: center;font-size: 30px;font-family: helvetica;font-weight: bold;">Sunglass</p>
+                    <p style="color: red;font-size: 20px;text-align: center;font-family: helvetica;font-weight: bold;">&#8377; 500</p>
+                    <p style="color: black;font-size: 20px;text-align: center;font-family: helvetica;font-weight: bold;"><s>&#8377; 1000</s></p>
+                    <button class="button" onclick="opentab('Contact')">Buy Now</button>
+                    <br><br>
+                </div>
+            </div>
+            
+            <br><br>
+            <button class="btn">Next page &rarr;</button>
+        </section>
+        <section class="tabcontent" id="Contact">
+            <br><br>
+            <p style="color: orangered;text-align: center;font-size: 35px;font-family: helvetica;font-weight: bold;margin-top: 5%;">Online Order</p>
+            <form>
+                <br>
+                <p>
+                    <label>
+                        <input type="text" name="Name" placeholder="Name">
+                    </label>
+                </p>
+                <br>
+                <p>
+                    <label>
+                        <input type="text" name="Mobile Number" placeholder="Mobile Number"> 
+                    </label>
+                </p>
+                <br>
+                <p>
+                    <label>
+                        <input type="text" name="Address" placeholder="Address">
+                    </label>
+                </p>
+                <br>
+                <p style="margin-left: 27%;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d983.5596147212589!2d77.95992106461273!3d9.574701680210119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b012cedb5f1de83%3A0x6135c16a3a24b6d9!2sKabilar%20St%2C%20Muthuraman%20Pati%2C%20Virudhunagar%2C%20Tamil%20Nadu%20626001!5e0!3m2!1sen!2sin!4v1692613999167!5m2!1sen!2sin" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </p>
+            </form>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
